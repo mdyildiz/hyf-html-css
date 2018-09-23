@@ -1,0 +1,132 @@
+header {
+    font-family: "Georgia";
+	  background-color: #F77526;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top:0px;
+    width: 100%;
+	border-radius:15px;
+	
+}
+			
+nav {
+    font-family:Helvetica;
+	  text-align:center;
+	  line-height:2.5em;
+	  float: left;
+    width: 11%;
+    height: 430px; 
+    background: #FAE725;
+margin-top:170px;   
+  	border-radius:15px;
+	position:fixed;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}						
+							
+				.head23		{ 		font-family:"Bookman";
+									color:green;
+									font-weight:bold;
+									font-style:italic;
+									text-decoration:underline;
+                   }
+        
+        h2{margin-left:200px;
+           }
+
+        h2,h3      {font-size:30px;
+                    padding-top:250px;}
+
+        h4,h6		{ 		font-family:Arial                       Black;
+									color:blue;
+									font-weight:bold;
+									line-height:1.8em;
+									font-size:12px;
+									margin-top:0px;
+                  }
+				
+				h5 {		font-family:tahoma;
+								font-size:20px;
+								margin-left:340px;
+          
+								
+									 }
+				
+									
+			ul, ol		{ 		font-family:Verdana;
+								font-size:15px;	
+									 }
+		
+				.flag{float:left;}
+				
+				.resim{float:right;}
+
+        		
+		#pic1{position:absolute;
+			  top:20px;
+			  right:20px;
+			  z-index:2;
+			  	border-radius:15px;
+			  }
+		
+		#pic2{position:absolute;
+			  top:20px;
+			  left:20px;
+			  z-index:2;
+			  	border-radius:15px;
+			  }
+		
+		#tablo{padding-left:200px;
+			  }
+   		   
+#nav1 ul li a:hover{ text-decoration:underline; background:#ABED70; }
+
+#nav2 td a:hover{ text-decoration:underline; background:#ABED70; }
+		
+		table{border:2px solid blue;
+			width: 30%;
+			text-align: center;
+			vertical-align: center;}
+
+
+				
+						
+		th{border:2px solid blue;
+		color:white;
+		height: 50px;
+		background-color:red;}
+		td{border:2px solid blue;
+		color:red;
+		background-color:white;
+    }
+		
+		p{font-family:Arial;
+		line-height:2em;
+		font-size:18px;
+		margin-top:0px;
+		}				
+			
+				.footer{
+						font-family: "Laila", tahoma;
+						font-size: 18px; 
+						color: white;
+						background-color: blue;
+						text-align:center;
+						line-height:2em;
+						padding: 20px 0px 0px 20px;
+							border-radius:15px;}
+					
+					#home1{font-size:20px;
+							font-weight:bold; 
+							font-family:tahoma;
+							}
+					
+				.footerlink{ width:150px;height:0px; position:relative; clear:both; bottom:150px; left:1150px; }
+			
