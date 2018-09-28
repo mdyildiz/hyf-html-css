@@ -1,0 +1,229 @@
+		header {
+    	font-family: "Georgia";
+	  	background-color: #F77526;
+		padding: 0px;
+		padding-top: 20px;
+		text-align: center;
+    	font-size: 30px;
+    	color: white;
+    	top:0px;
+		border-radius:15px;
+		}
+		
+		.about{
+		margin-top:20px; 
+		padding-bottom:20px; 
+		float: right;		
+		background-color: rgb(115, 200, 206);
+		margin-bottom: 20px;
+		color: white;
+		width: 85%;
+		height:200px;  
+		border-radius:10px; 
+		}
+
+		body{
+		padding:0px;	
+		}
+
+		nav {
+    	font-family:Helvetica;
+	  	text-align:center;
+	  	line-height:2.2em;
+	  	float: left;
+    	width: 11%;
+    	height: 370px; 
+    	background: #FAE725;
+		margin-top:20px;
+		border-radius:15px;
+		position:fixed;
+		}
+
+
+		nav ul {
+    	list-style-type: none;
+		padding: 0;
+		}
+						
+							
+		.head23	{font-family:"Bookman";
+		color:green;
+		font-weight:bold;
+		font-style:italic;
+		text-decoration:underline;
+		padding-left: 10px;
+		padding-right:10px; 
+        }
+        
+        h2,h3{
+		font-size:30px;
+		padding-left: 10px;
+		padding-right:10px;
+		}
+
+        h4,h6{font-family:Arial Black;
+		color:blue;
+		font-weight:bold;
+		line-height:1.8em;
+		font-size:12px;
+		margin-top:0px;
+		padding-left: 10px;
+		padding-right:10px;
+        }
+				
+		h5 {font-family:tahoma;
+		font-size:20px;
+		margin-left:340px;
+		padding-left: 10px;
+		padding-right:10px;
+        }
+				
+									
+		ul, ol{ 		
+		font-family:Verdana;
+		font-size:15px;
+		padding-left: 35px;
+		padding-right:10px;	
+		}
+		
+		.smallflag{
+		width:30px;
+		height:20px;
+		text-align:center;
+		}
+		
+		.flag1{
+		float:left;
+		padding-left: 10px;
+		padding-right:10px;
+		width:200px; 
+		height:130px; 
+		margin-right:40px;
+		}
+		
+		.flag{
+		float:left;
+		padding-left: 10px;
+		padding-right:10px;
+		width: 300px; 
+		height: 180px; 
+		border-radius:15px;
+		}
+
+		.resim{
+		float:right;
+		padding-left: 10px;
+		padding-right:10px;
+		width: 300px; 
+		height: 180px; 
+		border-radius:15px;
+		}
+
+        		
+		.pic1{
+		position:absolute;
+		top:20px;
+		right:20px;
+		z-index:2;
+		border-radius:15px;
+		}
+		
+		.pic2{
+		position:absolute;
+		top:20px;
+		left:20px;
+		z-index:2;
+		border-radius:15px;
+		}
+		
+		.tablo{
+		float: right;
+		background-color: rgb(115, 200, 206);
+		margin-bottom: 20px;
+		color: white;
+		width: 85%;
+		height:1200px;  
+		border-radius:10px;
+		}
+		
+		.japan{
+		float: right;
+		background-color: rgb(115, 200, 206);
+		margin-bottom: 20px;
+		color: white;
+		width: 85%;
+		height:1000px;  
+		border-radius:10px;
+		}
+
+		.security{
+		float: right;
+		background-color: rgb(115, 200, 206);
+		margin-bottom: 20px;
+		color: white;
+		width: 85%;
+		height:750px;  
+		border-radius:10px;
+		}
+
+		.thingstodo{
+			float: right;
+			background-color: rgb(115, 200, 206);
+			margin-bottom: 20px;
+			color: white;
+			width: 85%;
+			height:300px;  
+			border-radius:10px;
+			}
+
+		.nav1 ul li a:hover{ 
+		text-decoration:underline; background:#ABED70; 
+		}
+
+		.nav2{
+		margin-bottom: 20px;
+		}
+		
+		.nav2 td a:hover{ 
+		text-decoration:underline; background:#ABED70; 
+		}
+		
+		table{
+		border:2px solid blue;
+		width: 30%;
+		text-align: center;
+		vertical-align: center;
+		}
+
+		th{border:2px solid blue;
+		color:white;
+		height: 50px;
+		background-color:red;}
+		td{border:2px solid blue;
+		color:red;
+		background-color:white;
+    	}
+		
+		p{font-family:Arial;
+		line-height:2em;
+		font-size:18px;
+		margin-top:0px;
+		padding-left: 10px;
+		padding-right:10px;
+		}				
+			
+		.footer{
+		font-family: "Laila", tahoma;
+		font-size: 18px; 
+		color: white;
+		background-color: blue;
+		text-align:center;
+		line-height:2em;
+		border-radius:15px;
+		float: right;
+		width: 85%;
+		height:150px;  
+		}
+					
+		.footerlink{ width:150px;height:0px; position:relative; clear:both; bottom:150px; left:1150px; }
+			
