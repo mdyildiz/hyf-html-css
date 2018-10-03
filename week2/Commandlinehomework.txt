@@ -1,0 +1,7 @@
+WEEK 2 HOMEWORK
+
+1- touch .testfile.txt (to create a hidden file)
+   ls -a		(to display hidden files)
+2- mkdir -p mdyildiz/these/folders/are/just/for/fun (create multiple nested directories with one mkdir command)
+3- 18
+4- echo -n "test">fun     echo "anothertest">fun     cat fun
