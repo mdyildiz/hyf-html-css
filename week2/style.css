@@ -1,0 +1,133 @@
+
+ 	body {
+	background-color:rgb(156, 172, 182);
+	  }
+
+ 
+
+    h1 ,h2 {
+    font-size:40px;
+    text-align:center;
+    color:white;
+    background-color:rgb(68, 92, 158);
+    padding:10px;
+   	}
+
+    h2{
+    font-size:30px;    
+    }
+
+    h3 {
+	background-color:rgb(70, 224, 147);
+	color:white;
+	padding:5px;
+		  }
+    
+    ul {
+    list-style-type: none;
+    }
+    
+    .grid-item { 
+    background-color:white;       
+	}
+
+    #grid-floats li:nth-child(1){
+	width:54%;
+	height:25em;
+	}
+
+    #grid-floats .grid-item {
+	float:left;
+	border:5px red;
+	width:25%;
+	height:25em;
+	padding:10px;
+	margin:15px;
+	
+					  }
+   
+    #grid-floats::after{
+	content:"";
+	display:table;
+	clear: both;
+	height: 100%;
+	}
+   
+    img {
+	width:150px;
+	height:150px;
+	border:3px solid gray;
+   
+	   }
+
+    #grid-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;      
+	justify-content:flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	align-self: auto;
+	}
+
+    #grid-flex .grid-item {
+	border:5px red;
+	width:20%;
+	padding:10px;
+	margin:15px;
+					   }
+	  
+    #grid-flex li:nth-child(1){
+	width:54%;
+	height:25em;
+							}                            
+    #grid-flex li:nth-child(n+2){    
+	width:25%;
+	height:25em;
+    }
+
+    @media screen and (max-width: 600px) {
+			  
+    li:first-child {
+    width:auto;
+    }
+                                 
+    .grid-item {
+    width:auto;
+    overflow: auto;
+    }
+                                 
+    .grid-item img {
+    width: 100%;
+    float: none;
+    }
+        }
+                                            
+                                                     
+    @media screen and (min-width:601px) and (max-width:900px) {
+                                 
+    li:nth-child(-n+2) {                
+    width:auto;  
+    }
+                                 
+    .grid-item {
+    width:auto;
+    overflow: auto;
+    }
+                                 
+                                                       
+    @media screen and (min-width:901px){
+                                 
+    li:first-child {
+    width: auto;
+    }
+    .grid-item {
+    width: auto;
+    overflow: auto;
+    }
+                                              
+        }
+
+
+	
+                            
