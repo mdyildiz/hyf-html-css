@@ -1,0 +1,322 @@
+body {
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.625;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+	background-color: #f3f3f3;
+	margin:0px;
+	padding:0px;
+}
+
+	.logo{
+		margin: auto;
+		width: 50%;
+		padding: 10px; 
+	}
+
+	.head {
+		display: block;
+		margin-left:17em;
+		width: 50%;
+		  }
+
+	.nav{
+	box-sizing:border-box;
+	background-color: #01689b;
+	width: 90em;
+	height:5rem;
+	margin:0px;
+	padding:0px;	
+	}
+
+	.home{
+	color:white;
+	font-size: 2rem;
+	padding-top:1rem;
+	padding-left:1rem;
+	z-index: 1;
+	}
+
+	.topnews{
+	padding-left: 500px;
+	color:white;
+	font-size: 20px;
+	}
+
+	.top{
+	padding-left:30px;
+	color:white;
+	font-size: 20px;
+	}
+	
+	.topnav {
+	position: absolute;
+	width: 20rem;
+	margin-left: 50rem;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: white;
+	text-align: justify;
+	z-index: 5;
+	}
+
+	.topnavbutton {
+	position: absolute;
+	padding-top: 0px;
+	margin-left: 70rem;
+	margin-top: 20px;
+	width: 3%;
+	z-index: 6;
+	}
+
+	.nav2{
+	position: relative;
+	z-index: 1;
+	width: 90em;
+	height: 15em;
+	margin-bottom: 1em;
+	margin-top:0px;
+
+	}
+
+	.sub-nav{
+	position: absolute;
+	z-index: 2; 
+	width: 100%;
+	height:20em;
+	left: 0px;
+	top:0px;
+	box-sizing: content-box;
+	padding: 0;
+	border-width: 0;
+	
+	}
+		
+	.list{
+	position: absolute;
+	list-style-type:none;
+	z-index: 3; 
+	width:40rem;
+	left: 5%;
+	top: 10px;
+	height: 14em;
+	background-color: white;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	}
+
+	.list li{
+	font-size: 1.3rem;
+	color:blue;
+	}
+
+	.list p{
+	font-size: 1.75rem;
+	padding:0px;
+	margin:0px;
+	}
+
+	#icon{
+	color:white;
+	margin-top:260px;
+	margin-left:60px;
+	position: absolute;
+	font-size: 1rem;
+	z-index: 4;  
+	}
+
+	.section{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:8em;
+	}
+
+	
+
+	.div{
+	box-sizing:border-box;
+	width:40em;
+	margin:10px;
+	margin-left:20px;
+	margin-bottom: 30px;
+	padding:10px;
+	}	
+
+	.div h2{
+	font-size:1.5rem;
+	color:blue;
+	}
+
+	.third {
+	float:left;
+	list-style-type:none;
+	width:400px;
+	margin:20px;  
+	margin-top:50px;
+	margin-left:-20px;
+	}
+
+	.underpic{
+	margin-top:20px;
+	padding-top:20px;
+	font-size: 1.5rem;
+	}
+
+	
+	.news {
+	color:black;
+	font-size:30px;
+	margin-left: 10px;
+	margin-top: -50px;
+	text-align: left;
+	 
+	}
+	
+	
+	.meer{
+	color:#01689b;
+	font-size:1.5rem;
+	float:left;
+	padding:20px;
+	margin:20px;
+	margin-top:50px;
+	}
+
+
+	.box {
+	border:4px solid lightslategray;
+	padding:10px;
+	float:left;
+	margin:5px;
+	height:250px;
+	margin-left:30px;
+	text-align: center;
+	width:300px;
+	background-color:white;
+	} 
+
+	#box{
+	clear: both;
+	content:"";
+	display:table;     
+	}
+
+	.info {
+	color:white;
+	float:right;
+	text-align: left;
+	margin-right:30px;
+	width:600px;
+	font-family: "Calibri",sans-serif;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;  
+	}
+	
+	.service{
+	font-size: 1.75rem;
+	line-height: 3rem;
+	margin:0px;
+	padding:0px;
+	font-weight: normal;
+	}
+	
+	.list2 {  
+	margin:10px;
+	margin-bottom:10px;
+	margin-right: 50px;
+	list-style-type:none;
+	width:300px; 
+	line-height:30px; 
+	float: left;
+	padding:20px;  
+	height:250px;
+	}
+
+	.list2 h4{  
+	font-size:1.5rem;
+	color:blue;
+		}
+
+	#end {   
+	font-family: "RO Serif";
+	font-size:1.5rem;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.2381;
+    color:white;
+    width:40%;
+    padding-left:50px;
+    padding-top:50px;
+    }
+
+	.blue {
+    background-color:#01689b;
+    width:90em;
+    height:26rem;          
+    }
+
+	.language{
+	list-style-type:none;
+	}
+
+  	.taal {
+	font-size:1rem;
+	font-weight: bold;
+    border:3px solid lightblue;
+    padding:5px;
+	color:#01689b;
+    float:left;
+    margin:20px;
+	}
+	
+	.dutch{
+	font-size:1rem;
+	font-weight: bold;
+	padding:5px;
+	color:#01689b;
+	float:left;
+	margin:20px;
+	}
+
+
+
+	@media (min-width:600px){
+		.div{
+		flex: 75%;
+		}
+		.topnews{
+		
+		}
+		}
+		
+			
+		@media (min-width:900px){
+		.div{
+		flex: 50%;
+		}
+		}
+			
+			
+		@media (min-width:1024px){
+		.div{
+		flex: 20%; 
+		}
+		}
+	 
+	  
+	  
+	
+
+
+
+
+
+
+
+
+	
